@@ -8,3 +8,4 @@ C:\Users\HP\source\repos\MATRIZ\MATRIZ\bin\Debug\MATRIZ.exe
 C:\Users\HP\source\repos\MATRIZ\MATRIZ\bin\Debug\MATRIZ.pdb
 C:\Users\HP\source\repos\MATRIZ\MATRIZ\obj\Debug\MATRIZ.exe
 C:\Users\HP\source\repos\MATRIZ\MATRIZ\obj\Debug\MATRIZ.pdb
+C:\Users\HP\source\repos\MATRIZ\MATRIZ\obj\Debug\Figuras.Form2.resources

@@ -45,6 +45,10 @@
             this.lblMatrizResultado = new System.Windows.Forms.Label();
             this.lblOperador = new System.Windows.Forms.Label();
             this.lblIgual = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtIngresaDatosA = new System.Windows.Forms.TextBox();
+            this.txtIngresaDatosB = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMatrizA)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMatrizB)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvResultado)).BeginInit();
@@ -208,12 +212,50 @@
             this.lblIgual.TabIndex = 15;
             this.lblIgual.Text = "=";
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(47, 139);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(86, 13);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "ingresar datos A:";
+            // 
+            // txtIngresaDatosA
+            // 
+            this.txtIngresaDatosA.Location = new System.Drawing.Point(139, 136);
+            this.txtIngresaDatosA.Name = "txtIngresaDatosA";
+            this.txtIngresaDatosA.Size = new System.Drawing.Size(100, 20);
+            this.txtIngresaDatosA.TabIndex = 17;
+            this.txtIngresaDatosA.TextChanged += new System.EventHandler(this.txtIngresaDatosA_TextChanged);
+            // 
+            // txtIngresaDatosB
+            // 
+            this.txtIngresaDatosB.Location = new System.Drawing.Point(389, 139);
+            this.txtIngresaDatosB.Name = "txtIngresaDatosB";
+            this.txtIngresaDatosB.Size = new System.Drawing.Size(100, 20);
+            this.txtIngresaDatosB.TabIndex = 19;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(298, 142);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(86, 13);
+            this.label5.TabIndex = 18;
+            this.label5.Text = "ingresar datos B:";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BlanchedAlmond;
             this.ClientSize = new System.Drawing.Size(800, 500);
+            this.Controls.Add(this.txtIngresaDatosB);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.txtIngresaDatosA);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.lblIgual);
             this.Controls.Add(this.lblOperador);
             this.Controls.Add(this.lblMatrizResultado);
@@ -261,6 +303,10 @@
         private System.Windows.Forms.Label lblMatrizResultado;
         private System.Windows.Forms.Label lblOperador;
         private System.Windows.Forms.Label lblIgual;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtIngresaDatosA;
+        private System.Windows.Forms.TextBox txtIngresaDatosB;
+        private System.Windows.Forms.Label label5;
     }
 }
 
